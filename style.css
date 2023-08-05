@@ -1,0 +1,19 @@
+.containers {
+  display: grid;
+  grid-template-areas: 
+    "header" "header"
+    "content1"
+    "Conclusion Conclusion"
+  grid-gap 8px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 2fr 2fr 2fr;
+}
+#side{
+  background-color: red;
+}
+#intro{
+  background-color: yellow;
+}
+#conclude{
+  background-color: blue;
+}
